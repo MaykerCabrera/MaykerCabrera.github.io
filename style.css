@@ -1,0 +1,109 @@
+
+ .img{
+    
+}
+
+/* menu de programa*/
+
+
+
+
+.menu 
+
+.menu li 
+.menu li a
+/*.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    padding: 0;
+}
+.submenulist {
+    position: relative;
+}*/
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color:black;
+    min-width: 470px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    text-align: start;
+}
+.submenu li{
+    width: 150px;
+}
+
+.submenulist:hover .submenu {
+    display: block;
+}*/
+
+
+
+.form 
+.form 
+
+
+
+.parrafo 
+
+
+.btncss{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+aside{
+    width: 50%;
+}
+
+.submenu1 {
+    display: none;
+    position: absolute;
+    background-color:black;
+    width: 670px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    text-align: start;
+    padding: 20px;
+}
+.submenu1 li{
+    width: 150px;
+
+}
+
+.submenulist1:hover .submenu1 {
+    display: block;
+}
+.conten{
+    height: 100px;
+    border: 2px solid darkgoldenrod;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.conten a img{
+    width: 30%;
+}
+.conten a p{
+    font-size: 13px;
+}
+.links h3{
+    color: #fff;
+}
+.links li a{
+    font-size: 13px;
+}
+.conten1{
+    margin-bottom: 10px;
+}

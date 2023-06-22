@@ -1,0 +1,210 @@
+/*-------stilosSCSS----------------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+}
+* header .img {
+  height: 100px;
+  overflow: hidden;
+  margin: 0 auto;
+  text-align: center;
+}
+* header .img .imgrande {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+* header .menunav {
+  background-color: #333;
+}
+* header .menunav .menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+* header .menunav .menu li {
+  display: inline-block;
+  position: relative;
+}
+* header .menunav .menu li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+* header .menunav .menu li a:hover {
+  color: darkgoldenrod;
+}
+* header .menunav .menu .submenulist {
+  position: relative;
+}
+* header .menunav .menu .submenulist .submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #000000;
+  padding: 0;
+}
+* header .menunav .menu .submenulist .submenu li {
+  width: 150px;
+}
+* header .menunav .menu .submenulist:hover .submenu {
+  display: block;
+}
+* header .menunav .menu .submenulist1 .submenu1 {
+  display: none;
+  position: absolute;
+  background-color: black;
+  width: 670px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  text-align: start;
+  padding: 20px;
+}
+* header .menunav .menu .submenulist1 .submenu1 li {
+  width: 150px;
+}
+* header .menunav .menu .submenulist1 .submenu1 .conten {
+  height: 100px;
+  border: 2px solid darkgoldenrod;
+  text-align: center;
+  margin-bottom: 0px;
+}
+* header .menunav .menu .submenulist1 .submenu1 .conten a img {
+  width: 30%;
+}
+* header .menunav .menu .submenulist1 .submenu1 .conten p {
+  font-size: 13px;
+}
+* header .menunav .menu .submenulist1 .links h3 {
+  color: #fff;
+}
+* header .menunav .menu .submenulist1 .links li a {
+  font-size: 13px;
+}
+* header .menunav .menu .submenulist1:hover .submenu1 {
+  display: block;
+}
+* body main {
+  width: 100%;
+  padding: 30px;
+}
+* body main article h1 {
+  padding: 30px;
+}
+* body main article div {
+  background-color: darkgray;
+}
+* body main article div .parrafo {
+  padding: 10px;
+}
+* body main article div .parrafo .btncss {
+  width: 100%;
+}
+* body main article div .parrafo h1 {
+  color: darkgoldenrod;
+  padding: 10px;
+}
+* body aside {
+  width: 50%;
+}
+* body aside h3 {
+  font-size: 35px;
+  padding-bottom: 15px;
+}
+* body aside .link-aside {
+  text-decoration: none;
+}
+* body aside .link-aside .img-aside {
+  width: 170px;
+}
+* body aside .form {
+  width: 90%;
+}
+* body aside .form h3 {
+  text-align: center;
+}
+* body aside .form h3 legend {
+  font-size: 20px;
+  font-weight: bold;
+}
+* body .centro {
+  text-align: center;
+}
+* body .onix {
+  width: 90%;
+}
+* body .text {
+  text-align: justify;
+}
+* .recomendacion {
+  padding: 50px;
+}
+* .recomendacion h3 {
+  padding: 50px;
+  font-size: 40px;
+}
+* .recomendacion .conten {
+  padding: 50px;
+}
+* .recomendacion .conten .conten1 {
+  width: 50%;
+  padding: 40px;
+}
+* .recomendacion .conten .conten1 h1 {
+  color: darkgoldenrod;
+  padding-bottom: 50px;
+}
+* .recomendacion .video {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 600px;
+}
+* footer .contactanos {
+  background-color: black;
+  padding: 20px;
+  color: darkgoldenrod;
+  text-align: center;
+}
+* footer .contactanos .arriba {
+  text-decoration: none;
+  font-weight: bold;
+}
+* footer .contactanos .centro {
+  text-align: center;
+}
+* footer .contactanos .facebook {
+  width: 80px;
+}
+* footer .contactanos .instagram {
+  width: 80px;
+}
+
+/* .art {
+    background-color: darkgray;
+    width: 90%;
+
+    .imgart {
+        width: 50%;
+        padding: 30px;
+
+        img {
+            width: 400px;
+        }
+    }
+
+    .parrafo {
+        padding: 50px;
+
+        h1 {
+            color: darkgoldenrod;
+        }
+    }
+} */
+/*-------MENU VEHICULOS--------*/
+/*-------stilosSCSS--------------------------------------------------------*/
+/*------MENU COMPRAS----------------------------------------------------------*/
+/*-------stilosSCSS----------------------------------------------------*//*# sourceMappingURL=style.css.map */
